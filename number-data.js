@@ -26,5 +26,8 @@ console.log( counter)
 counter /= 5;
 console.log( counter)
 
+console.log (2 + 3 * 50)
+// console.log( counter)
+console.log ((2 + 3 )* 50)
 
 

@@ -3,8 +3,8 @@ let tax = 0.18
 let priceTax = price * tax
 let total = price + priceTax
 console.log(
-     price
-   , tax
-    , priceTax
-    , total
+     "price:", price,
+     "tax:" , tax,
+     "pricetax:", priceTax,
+    "total:" , total
 )

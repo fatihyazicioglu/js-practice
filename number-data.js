@@ -8,3 +8,23 @@ console.log(
      "pricetax:", priceTax,
     "total:" , total
 )
+
+// increase and decrease
+let counter = 320
+counter = counter + 1 ;
+counter += 1;
+counter ++;
+console.log( counter)
+
+counter -= 1;
+counter --;
+console.log( counter)
+
+counter *= 10;
+console.log( counter)
+
+counter /= 5;
+console.log( counter)
+
+
+

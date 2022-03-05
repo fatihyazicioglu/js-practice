@@ -13,7 +13,7 @@ fullName = "lorem2"
 console.log(fullName)
 
 fullName + "new added info"
-console.log(fullName + " test info")
+console.log(fullName + " test inf1o")
 
 fullName = "deleted"
 fullName += " and new info added1"
@@ -24,3 +24,10 @@ console.log (fullName)
 
 const SERVER_PASSWORD = "oisrjdajd"
 console.log(SERVER_PASSWORD)
+
+let isActive = true
+let hasPassword = false
+
+
+// line length should be less than 80
+// line length < 80

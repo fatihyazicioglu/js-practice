@@ -14,3 +14,13 @@ console.log(fullName)
 
 fullName + "new added info"
 console.log(fullName + " test info")
+
+fullName = "deleted"
+fullName += " and new info added1"
+console.log (fullName)
+
+// fullName = fullName + " Yeni Bilgi"
+// fullName = "2: Bilgi : " + fullName
+
+const SERVER_PASSWORD = "oisrjdajd"
+console.log(SERVER_PASSWORD)

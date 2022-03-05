@@ -31,3 +31,9 @@ console.log (2 + 3 * 50)
 console.log ((2 + 3 )* 50)
 
 
+// mod alma
+console.log (14 % 2) //0 ise cift, 1 ise tek
+console.log (17 % 2)
+
+//8 urun alan koliye tum urunler sigiyor mu?
+console.log("Koli Ornegi: ", 18 % 8)

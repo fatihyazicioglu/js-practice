@@ -17,4 +17,23 @@ let firstName = "fatih"
 firstName = firstName.toUpperCase()
 console.log(firstName);
 
+console.log(email.search("@"));
+
+console.log(email.search("dl"));
+
+
+
+let DOMAIN1 = email.slice(email.search("@")+1)
+console.log(DOMAIN1);
+
+
+console.log(email.includes("add")
+);
+
+email.includes("@")
+
+console.log(email.endsWith("kodluyoruz.org"));
+
+let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()}`
+console.log(fullName);
 

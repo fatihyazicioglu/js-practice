@@ -12,3 +12,9 @@ your name : ${username[0]}.
 it is : ${new Date().getHours()}
 `
 console.log(info);
+
+let firstName = "fatih"
+firstName = firstName.toUpperCase()
+console.log(firstName);
+
+

@@ -8,7 +8,9 @@ console.log(price !=5);
 
 
 
-let username =  ("enter you username")
+let username =  prompt("enter you username")
+let age = prompt ("age")
+
 
 if (username.length>0){
     console.log(`"username" ,${username}`);

@@ -15,7 +15,15 @@ function greeting2 (firstName, lastName){
     let info = `${firstName} ${lastName}`
     return info
 }
-function greeting2 (firstName, lastName){
-greeting2 ("Ad", "Soyad")
-let info = "deneme" //???????
-console.log(info);
+// function greeting2 (firstName, lastName){
+// greeting2 ("Ad", "Soyad")
+// let info = "deneme" //???????
+// console.log(info);
+
+
+function domIdWriteInfo(id,info) {
+    let dom0bject = document.querySelector ( `#${id}`)
+    dom0bject.innerHTML = info
+}
+
+let htmlInfo = 

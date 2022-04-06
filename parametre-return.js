@@ -26,4 +26,3 @@ function domIdWriteInfo(id,info) {
     dom0bject.innerHTML = info
 }
 
-let htmlInfo = 

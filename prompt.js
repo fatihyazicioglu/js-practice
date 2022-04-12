@@ -11,3 +11,8 @@ console.log(items);
 
 let emptyArray = []
 console.log(emptyArray.length);
+
+
+console.log(items[0]); //first element
+
+console.log(items[items.length-1]); //last element

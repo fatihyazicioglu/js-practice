@@ -31,3 +31,9 @@ let hasPassword = false
 
 // line length should be less than 80
 // line length < 80
+
+let test = "kodluyoruz"
+let ist = false
+let items = [1, 2, 3, ist, test]
+
+console.log();

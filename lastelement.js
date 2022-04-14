@@ -36,4 +36,9 @@ console.log(items);
 
 items[items.length -1] = 1000
 
+
 console.log(items);
+
+
+items[10000] = 10000
+console.log(items); //to see empty items

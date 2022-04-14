@@ -29,3 +29,11 @@ console.log("last item; ", lastItem,"items: ", items);
 let firstItem = items.shift ()//ilk eleman
 console.log(firstItem);
 
+
+items[0] = 5
+console.log(items);
+
+
+items[items.length -1] = 1000
+
+console.log(items);

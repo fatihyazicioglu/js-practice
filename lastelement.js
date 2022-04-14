@@ -26,3 +26,6 @@ console.log("5: ",items);
 let lastItem = items.pop ()
 console.log("last item; ", lastItem,"items: ", items);
 
+let firstItem = items.shift ()//ilk eleman
+console.log(firstItem);
+

@@ -22,4 +22,7 @@ items.unshift (5)
 console.log("5: ",items);
 
 
-sonda
+// sondaki ogeyi cikartmak -> Pop
+let lastItem = items.pop ()
+console.log("last item; ", lastItem,"items: ", items);
+

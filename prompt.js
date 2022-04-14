@@ -24,3 +24,6 @@ console.log(Array.isArray([]))
 
 console.log(items[Math.floor(items.length/2)]);
 console.log(items1);
+
+
+console.log("typeof :", typeof(items1));

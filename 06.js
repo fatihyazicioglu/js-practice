@@ -15,7 +15,7 @@ let number5 = 55
 number5 = number5.toString()
 console.log( number5, typeof(number5));
 
-let items = [8,12, 3, 45]
+let items = [1,2,3,4]
 
 let femaleUsers = ["ayse", "Hulya", "Merve"]
 let maleUsers = ["Ahmet", "Hasan", "Mehmet"]
@@ -25,3 +25,10 @@ console.log(items);
 
 
 console.log(items[0].length);
+
+//splice
+
+let newItems = items.splice(1,6)
+// console.log(items);
+console.log(newItems);
+

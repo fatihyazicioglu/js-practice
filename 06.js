@@ -14,3 +14,14 @@ console.log( "number5: ", number4, typeof(number4));
 let number5 = 55
 number5 = number5.toString()
 console.log( number5, typeof(number5));
+
+let items = [8,12, 3, 45]
+
+let femaleUsers = ["ayse", "Hulya", "Merve"]
+let maleUsers = ["Ahmet", "Hasan", "Mehmet"]
+items.unshift (femaleUsers) //adding to the beginning
+items.push(maleUsers)
+console.log(items);
+
+
+console.log(items[0].length);

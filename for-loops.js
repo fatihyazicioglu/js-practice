@@ -16,3 +16,9 @@ for(; counter<10; counter++){
     if (counter ===5){continue}
     console.log(counter);
 }
+
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+    
+// }

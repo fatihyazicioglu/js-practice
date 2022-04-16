@@ -54,3 +54,5 @@ console.log(allUsers);
 // to convert to string -> toString, join
 console.log(allUsers.toString());
 
+//join
+console.log(allUsers.join("*+*+*"));

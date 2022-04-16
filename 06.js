@@ -28,7 +28,11 @@ console.log(items[0].length);
 
 //splice
 
-let newItems = items.splice(1,6)
+let newItems = items.splice(0,3)
 // console.log(items);
 console.log(newItems);
 
+// indexOf
+items.unshift("lorem")
+items.push("ipsum")
+console.log(items);

@@ -36,3 +36,21 @@ console.log(newItems);
 items.unshift("lorem")
 items.push("ipsum")
 console.log(items);
+
+
+// slice
+let copyItems = items
+copyItems.pop()
+console.log(copyItems); 
+//pop to remove last element out of array
+
+console.log(copyItems);
+console.log(items);
+
+
+let allUsers = [...femaleUsers, ...maleUsers]
+console.log(allUsers);
+
+// to convert to string -> toString, join
+console.log(allUsers.toString());
+

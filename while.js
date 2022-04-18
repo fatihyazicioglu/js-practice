@@ -8,3 +8,5 @@ let userName;
 while (userName != "") {
     console.log(userName);
 }
+
+// continue till it happens-> WHILE

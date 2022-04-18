@@ -22,3 +22,9 @@ for(; counter<10; counter++){
 //     const element = array[i];
     
 // }
+
+let counter1 = 0
+for(; counter1<10; counter1++){
+    if (counter1 ===5){break}
+    console.log(counter1);
+}

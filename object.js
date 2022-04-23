@@ -40,3 +40,15 @@ keys.forEach (keyInfo =>{
     console.log(keyInfo)
     console.log(laptop1[keyInfo])
 })
+
+
+
+console.log(Object.values(laptop1));
+console.log(laptop1);
+
+let values = Object.values(laptop1)
+console.log(values);
+
+values.forEach(value =>{
+    console.log("value",value);
+})

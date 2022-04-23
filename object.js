@@ -18,6 +18,7 @@ let laptop1 = {
     brand: "Apple",
     model: "MacBook Pro", 
     "2kg": 2, //it is not allowed to begin with number-> 1number
+    modelName : "Macbook pro"
 }
 
 
@@ -25,3 +26,6 @@ console.log(laptop1);
 
 console.log(laptop1.model);
 console.log(laptop1["2kg"]);
+
+// laptop1.brand = "Mac"
+console.log(laptop1);

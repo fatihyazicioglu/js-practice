@@ -33,5 +33,10 @@ console.log(laptop1);
 laptop1.version = "10.15.7"
 console.log(laptop1);
 
-keys123 = Object.keys(laptop1)
-console.log(keys123);
+keys = Object.keys(laptop1)
+console.log(keys);
+
+keys.forEach (keyInfo =>{
+    console.log(keyInfo)
+    console.log(laptop1[keyInfo])
+})

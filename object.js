@@ -29,3 +29,9 @@ console.log(laptop1["2kg"]);
 
 // laptop1.brand = "Mac"
 console.log(laptop1);
+
+laptop1.version = "10.15.7"
+console.log(laptop1);
+
+keys123 = Object.keys(laptop1)
+console.log(keys123);

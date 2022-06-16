@@ -37,3 +37,5 @@ let ist = false
 let items = [1, 2, 3, ist, test]
 
 console.log();
+let x = "123"
+console.log(x);

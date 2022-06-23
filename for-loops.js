@@ -11,10 +11,10 @@ for (; index <users.length; index++) {
 }
 
 
-let counter = 0
-for(; counter<10; counter++){
-    if (counter ===5){continue}
-    console.log(counter);
+let counterY = 0
+for(; counterY<10; counterY++){
+    if (counterY ===5){continue}
+    console.log(counterY);
 }
 
 

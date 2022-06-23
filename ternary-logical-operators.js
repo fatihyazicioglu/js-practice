@@ -1,10 +1,10 @@
-let price = "5"
-console.log(price = 66);
-console.log(price == 100);
+let priceB = "5"
+console.log(priceB = 66);
+console.log(priceB == 100);
 
-console.log(price ===100);
+console.log(priceB ===100);
 
-console.log(price !=5);
+console.log(priceB !=5);
 
 
 
@@ -19,9 +19,9 @@ if (username.length>0){
 }
 
 let info = document.querySelector("#info")
-if(userName && age >=18){
+if(username && age >=18){
     info.innerHTML = "you can take driver license"
-}else if (!userName){
+}else if (!username){
     info.innerHTML = "there is no username"
 }else if (!(age>=18)){
     info.innerHTML = "no age info or bigger than 18"

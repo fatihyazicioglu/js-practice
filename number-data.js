@@ -1,30 +1,30 @@
-let price = 100
+let priceZ = 100
 let tax = 0.18
-let priceTax = price * tax
-let total = price + priceTax
+let priceTax = priceZ * tax
+let total = priceZ + priceTax
 console.log(
-     "price:", price,
+     "price:", priceZ,
      "tax:" , tax,
      "pricetax:", priceTax,
     "total:" , total
 )
 
-// increase and decrease
-let counter = 320
-counter = counter + 1 ;
-counter += 1;
-counter ++;
-console.log( counter)
+//increase and decrease
+let counterA = 320
+counterA = counterA + 1 ;
+counterA += 1;
+counterA ++;
+console.log( counterA)
 
-counter -= 1;
-counter --;
-console.log( counter)
+counterA -= 1;
+counterA --;
+console.log( counterA)
 
-counter *= 10;
-console.log( counter)
+counterA *= 10;
+console.log( counterA)
 
-counter /= 5;
-console.log( counter)
+counterA /= 5;
+console.log( counterA)
 
 console.log (2 + 3 * 50)
 // console.log( counter)

@@ -1,17 +1,17 @@
-let username="fatih"
+let usernameA="fatih"
 const DOMAIN = "12313.org"
 
-let email = username + "@"+ DOMAIN
+let email = usernameA + "@"+ DOMAIN
 console.log("Merhaba", username, "welcome to our site", "your mail:",email);
 
-let info = `Hello ${username} welcome to our site.. your mail ${email} 
+let infoX = `Hello ${usernameA} welcome to our site.. your mail ${email} 
 lenght of the mail ${email.length}
 you should pay ${(2+3)*10} TL
 
-your name : ${username[0]}.
+your name : ${usernameA[0]}.
 it is : ${new Date().getHours()}
 `
-console.log(info);
+console.log(infoX);
 
 let firstName = "fatih"
 firstName = firstName.toUpperCase()
@@ -34,6 +34,6 @@ email.includes("@")
 
 console.log(email.endsWith("kodluyoruz.org"));
 
-let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()}`
-console.log(fullName);
+let fullNameA = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()}`
+console.log(fullNameA);
 

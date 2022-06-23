@@ -9,36 +9,36 @@
 // ulDOM.append(liDOM) // adds to the last
 // ulDOM.prepend(liDOM) //add to the beginning
 
-let items = [10, 20 , 30, 40]
-console.log("items- ilk hali ;", items);
+let items1 = [10, 20 , 30, 40]
+console.log("items- ilk hali ;", items1);
 
 // console.log(items.push(50));
-items.push (50)
-console.log("50: ", items);
+items1.push (50)
+console.log("50: ", items1);
 
 
 // array :basa oge eklemek
-items.unshift (5)
-console.log("5: ",items);
+items1.unshift (5)
+console.log("5: ",items1);
 
 
 // sondaki ogeyi cikartmak -> Pop
-let lastItem = items.pop ()
+let lastItem = items1.pop ()
 console.log("last item; ", lastItem,"items: ", items);
 
-let firstItem = items.shift ()//ilk eleman
+let firstItem = items1.shift ()//ilk eleman
 console.log(firstItem);
 
 
-items[0] = 5
-console.log(items);
+items1[0] = 5
+console.log(items1);
 
 
-items[items.length -1] = 1000
+items1[items1.length -1] = 1000
 
 
-console.log(items);
+console.log(items1);
 
 
-items[10000] = 10000
-console.log(items); //to see empty items
+items1[10000] = 10000
+console.log(items1); //to see empty items

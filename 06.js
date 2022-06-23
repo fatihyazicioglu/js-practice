@@ -15,31 +15,31 @@ let number5 = 55
 number5 = number5.toString()
 console.log( number5, typeof(number5));
 
-let items = [1,2,3,4]
+let itemsX = [1,2,3,4]
 
 let femaleUsers = ["ayse", "Hulya", "Merve"]
 let maleUsers = ["Ahmet", "Hasan", "Mehmet"]
-items.unshift (femaleUsers) //adding to the beginning
-items.push(maleUsers)
-console.log(items);
+itemsX.unshift (femaleUsers) //adding to the beginning
+itemsX.push(maleUsers)
+console.log(itemsX);
 
 
-console.log(items[0].length);
+console.log(itemsX[0].length);
 
 //splice
 
-let newItems = items.splice(0,3)
+let newItems = itemsX.splice(0,3)
 // console.log(items);
 console.log(newItems);
 
 // indexOf
-items.unshift("lorem")
-items.push("ipsum")
-console.log(items);
+itemsX.unshift("lorem")
+itemsX.push("ipsum")
+console.log(itemsX);
 
 
 // slice
-let copyItems = items
+let copyItems = itemsX
 copyItems.pop()
 console.log(copyItems); 
 //pop to remove last element out of array

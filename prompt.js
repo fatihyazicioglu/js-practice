@@ -2,11 +2,11 @@
 // console.log(fullName);,
 
 let domain = "kodluyoruz"
-let isActive = false
-let items = [1,2,3,isActive,domain]
+let isActive11 = false
+let items5 = [1,2,3,isActive,domain]
 console.log(items);
 
-const items1=(1,2,3)
+const items9=(1,2,3)
 console.log(items);
 
 let emptyArray = []
@@ -22,7 +22,7 @@ console.log(typeof(items));
 
 console.log(Array.isArray([]))
 
-console.log(items[Math.floor(items.length/2)]);
+console.log(items5[Math.floor(items5.length/2)]);
 console.log(items1);
 
 

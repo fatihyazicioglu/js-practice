@@ -20,7 +20,7 @@ function addPost(callback) {
 
 function getAllPosts() {
   setTimeout(function () {
-    // let output = "<ul>";
+     let output = "<ul>";
     posts.forEach(function (post) {
       output += `<li>${post.title}-${post.body}</li>  `;
     });
